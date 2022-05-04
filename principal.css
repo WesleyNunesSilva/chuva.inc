@@ -1,0 +1,1059 @@
+@font-face {
+    font-family:"Quicksand" ;
+    src: url(./Fontes/Quicksand/Quicksand-VariableFont_wght.ttf );
+}
+
+@font-face {
+    font-family: "Roboto" ;
+    src: url(./Fontes/Roboto/Roboto-Regular.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;  
+    }
+
+body {
+    line-height: 1.428571429;
+    overflow: overlay ;
+}
+/* side bar*/
+
+.SideBar {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFF;
+    box-shadow: 3px 0 5px 0 #e7e7e7;
+    height: 100%;
+    position: fixed;
+    font-family: "Roboto",sans-serif;
+    font-weight: 500;
+}
+
+h2 {
+    height: 68px;
+    color: #ffff;
+    font-size: 30px;
+    background: linear-gradient(0deg,#ED7839 0%,#FFB455 100%);    
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+}
+/*side bar options*/
+
+ul {
+    font-size: 15px;
+    font-weight: 500;   
+}
+
+li.OptionsBar {
+    height: 33px;
+    border-bottom: 2px solid #ECECEC;
+    padding-left: 24px;
+    margin: 2px 0;
+    display: flex;
+    align-items: center;
+}
+
+li.OptionsBar:hover {
+    background-color: #FDF1EB;
+    padding-left: 29px;
+    transition: 200ms;
+    border: 0;
+    border-left: #ED7839 5px solid;
+}
+
+a{
+    flex: 1;
+    color: #725C5C;
+}
+/*main content*/
+
+.conteúdo {
+    margin-left: 263px;
+    width: 79.5vw;    
+}
+/*header*/
+.cabeçalho {
+    background-color: #FDF1EB;
+    font-size: 22px;
+    color: #725C5C;
+    padding-left: 40px;
+    height: 68.69px;
+    font-family: Roboto;
+    margin-left: 220px;
+    margin-bottom: -6px;
+    font-weight: 100;
+}
+
+span.content-subtopic {
+    display: flex;
+    flex-direction: column;
+    line-height: 20px;
+}
+
+/* Anais do Simpósio Latino Americano de Ciências de Alimentos */
+
+label.top{
+    font-size: 14px;
+    font-weight: normal;  
+}
+
+.ISSN{
+    font-size: 14px;
+    font-weight: normal;   
+}
+/*lenguage icon*/
+
+select {
+    background-image: url(./icons/language\ image.png);
+    background-repeat: no-repeat;
+    background-size: 22px;
+    width: 97px;
+    height: 34px;
+    border: 1px solid #CCCCCC;
+    border-radius: 4px;
+    padding-left: 27px;
+    padding-right: 5px;
+    background-color: #FDF1EB; 
+    align-items: center; 
+    background-position: 7px 3px ;
+    cursor: pointer;
+    
+}
+/*lenguage select*/
+
+.OptLanguage {
+    position: absolute;
+    top: 17px;
+    right: 260px;
+    
+}
+/*login*/
+
+.login {
+    top: 19px;
+    right: 79px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    line-height: 100%;
+    font-family: Quicksand;
+    font-weight: 400;
+}
+
+/*profile with notification*/
+
+.perfil {
+    position: absolute;
+    border: 1px solid #F5F5F5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.icon-container {
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    top: 19px;
+    right: 37px;
+    font-family: 'Quicksand';
+    
+}
+
+
+.badge {
+    top: -1.5px;
+    height: 13px;
+    position: absolute;
+    width: 13px;
+    background-color: #F85959;
+    border-radius: 50px;
+    right: 0;
+    
+    
+}
+
+.notification{
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    font-size: 10px;
+}
+/* "bem vindo" email and user */
+
+.welcome {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.MailGaloa {
+    font-size: 12px;
+    margin-top: -5px;
+}
+
+/* job title */
+
+
+.title {
+    margin: 24.5px 56px 19px 0;
+    width: 786px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 25px;  
+    letter-spacing: 0.05em; 
+    color: #ED7839;
+}
+/* side buttons*/
+
+.buttons {
+    position: absolute;
+    top: 88px;
+    right: 40px;
+    height: 33px;
+    width: 220px;
+ }
+
+ #Bottons-Right {
+    border: 0;
+    border-radius: 6px;
+    background: none;
+    cursor: pointer;
+ }
+/*quote*/
+
+label.citação {
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.05em;
+    color: #ED7839;
+}
+/*title and description video*/
+
+.TitleVideo {
+    top: 196px;
+    left: 297px;
+    width: 734px;
+    position: absolute;
+    z-index: 2;
+    letter-spacing: 0.05em;
+}
+
+label.DescriptionVideo {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 25px;
+    letter-spacing: 0.05em; 
+    color: #FFFFFF;
+    
+}
+.InfosVideo {
+    color: #FFFFFF;
+    height: 314px;
+    width: 592px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-left: 100px;
+    padding-bottom: 45px;
+    line-height: 42px;
+}
+
+/*channel and college name*/
+
+span.ChannelName {
+    font-size: 34px;
+    line-height: 25px;
+    letter-spacing: 0.05em; 
+    font-family: 'Roboto';
+    font-weight: 900;
+}
+
+span.College {
+    font-family: Roboto;
+    font-weight: 900;
+    font-size: 20px;
+
+}
+
+.video {
+    padding-top: 4px;
+    padding-left: 3px;
+    border-radius: 3px;
+}
+
+.backgroundVideo {
+    width: 783px;
+    height: 439px;
+    left: 267px;
+    top: 160px;
+    position: absolute;
+    background: rgba(141, 53, 6, 0.5);
+    border-radius: 3px;
+}
+
+/*channel profile*/
+
+.ContentAvatar {
+    border: 1px solid #ED7839;
+    height: 86px;
+    width: 84px;
+    top: 462px;
+    position: absolute;
+    left: 296px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.IconVideo {
+    height: 80px;
+    border: 1px solid transparent;
+    border-radius: 50px;
+    top: 466.26px;
+    left: 300.57px;
+  
+}
+
+/*job details*/
+
+.JobDescription {
+    position: absolute;
+    top: 161px;
+    right: 45px;
+    width: 244px;
+    height: 439px;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    border: 1px solid #ECECEC;
+    border-radius: 3px;
+
+  }
+
+.HeaderDescription {
+    width: 242px;
+    height: 45px;
+    border: 1px solid #ECECEC;
+    border-radius: 3px 3px 0px 0px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 20px;
+    padding-left: 15px;
+    background: #FDF1EB;
+    display: flex;
+    align-items: center;
+    color: #4E4E4E;
+    border-bottom: 1px solid #FDF1EB;
+
+}
+
+ol.DetailsList {
+font-weight: 400;
+font-size: 12px;
+line-height: 120%;
+letter-spacing: 0.02em;
+color: rgb(180, 180, 180);
+
+}
+
+.description {
+    padding: 15px 15px 22px; 
+
+    
+}
+
+.authors {
+    padding: 20px 0px 40px;
+   
+    line-height: 20px;
+}
+
+ol.AuthorsList {
+    font-size: 14px;
+}
+
+p.DetailsInfo {
+    line-height:17px ;
+}
+
+/*summary*/
+
+/*Summary Header*/
+
+.summary {
+    width: 1058px;
+    margin-top: 23px;
+    border: 1px solid #ECECEC;
+    border-radius: 3px;
+}
+
+.SummaryHeader {
+    width: 1058px;
+    height: 45px;
+    background: #FDF1EB;
+    border: 1px solid #ECECEC;
+    box-sizing: border-box;
+    border-radius: 3px 3px 0px 0px;
+    display: flex;
+    align-items: center;
+}
+
+.SummaryTitle {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    padding-left: 15px;
+    color: #4E4E4E;
+}
+
+#More {
+    color: #ED7839;
+    border: none;
+    background: none;
+    cursor: pointer;
+
+}
+
+.AllSummary {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    letter-spacing: 0.017em;
+    color: #5C5C5C;
+    padding: 15px;
+}
+
+#All {
+    display: none;
+}
+
+/* panel discussion 1 */
+
+.PanelDiscussion {
+    margin-top: 30px;
+    border: 1px solid  #ECECEC;
+    border-radius: 3px;
+    width: 1060px;
+}
+
+.TopicHeader {
+    width: 1058px;
+    background: #FDF1EB;
+    border: 1px solid #ECECEC;
+    border-radius: 3px 3px 0px 0px;
+    display: flex;
+    align-items: center;
+
+}
+
+#DiscussionContent1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top:15px;
+    
+
+}
+
+.TopicTitle {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    color: #4E4E4E;
+    padding: 9px 16px ;
+}
+span.TitleContent {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #ED7839;
+}
+.TopicDescription {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #595959;
+    width: 620px;
+}
+
+img.PaddingIMG {
+    padding: 27px 25px 29px ;
+}
+hr.Division1 {
+    width: 1027px;
+    border: 1px solid rgba(241, 241, 241, 1);
+    margin: -30px 0 13px;
+}
+
+button#CreateTopic {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 4px;
+    border: none;
+    width: 133px;
+    height: 32px;
+    margin: 14px;
+    background: linear-gradient(180deg, #FEB254 0%, #F0813D 100%);
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.12), 0px 2px 2px rgba(0, 0, 0, 0.24);
+    position: sticky;
+
+}
+span.ContentButton {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 16px;
+    
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/*Discussion Content 2*/
+
+#DiscussionContent2 {
+    display: none;
+    flex-direction: column;
+}
+
+span.form {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+
+    padding-top: 15px;
+    text-align: center;
+
+    color: #5C5C5C;
+}
+
+.FormContent {
+    width: 1025px;
+    display: flex;
+    flex-direction: column;
+}
+
+label.Subject {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #ED7839;
+    margin: 22px 17px 1px;
+    
+}
+
+#AbstractInput {
+    height: 39px;
+    margin: 0 17px 3px;
+    padding-left: 22px;
+    width: 1026px;
+    border: 1px solid #CCCCCC;
+    font-family: Quicksand;
+    border-radius: 3px;
+    
+}
+
+label.content {
+    margin: 9px 17px 3px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #ED7839;
+}
+
+#ContentArea {
+    width: 1026px;
+    margin: 0 17px 10px;
+    padding-left: 22px;
+}
+
+.send {
+    width: 1026px;
+    background-color:  #EAF1F2;
+    border: 1px solid #CCCCCC;
+    box-sizing: border-box;
+    border-radius: 0px 0px 4px 4px;
+    margin:  -15px 17px 0;
+    height: 31px;
+    display: flex;
+    align-items: center;
+    
+    
+        
+}
+
+#ContentArea {
+    resize: none;
+    border: 1px solid #CCCCCC;
+    border-radius: 3px;
+}
+
+img.StyleIcon {
+    margin-left: 29.5px;
+}
+
+button#SendContent {
+    position: absolute;
+    border: none;
+    right: 60.5px;
+    padding: 0 81px;
+    height: 30px;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+    background: linear-gradient(180deg, #FEB154 0%, #F1833E 100%);
+    border-radius: 0px 0px 4px 0px;
+}
+
+/* Topic Sent */
+
+#TopicSent {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.ShippingTitle {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #ED7839;
+}
+
+.ShippingDescription {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #595959;
+    margin-top: 18px;
+}
+
+a.DiscoverJobs {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 137.5%;
+    text-decoration: underline;
+    color: #F48F44;
+    margin-top: 30px;
+}
+
+button#NewTopic {
+    background: linear-gradient(180deg, #FEB254 0%, #F0813D 100%);
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.12), 0px 2px 2px rgba(0, 0, 0, 0.24);
+    border-radius: 4px;
+    Width:235.15px;
+    Height:32px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 16px;
+    color: #FFFFFF;
+    margin-top: 49px;
+    position: sticky;
+}
+hr.division3 {
+    width: 1027px;
+    border: 1px solid rgba(241, 241, 241, 1);
+    margin: -15px 0 28px;
+}
+/* ShippingConfirmation */
+.feedback {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #E7E7E7;
+    box-sizing: border-box;
+    border-radius: 4px;
+    width: 1028px;
+}
+
+span.CommentBlurred {
+    padding: 20px 27px 4px ;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #ED7839;
+}
+
+span.NameBlurred {
+    padding: 0 27px 10px;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+    color: #5C5C5C;  
+}
+
+span.BlurredQuestion {
+    padding: 1px 27px 47px;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #4D4D4D;
+}
+
+.WaitingFeedback {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(241, 241, 241, 0.7);
+    border: 1px solid #E7E7E7;
+    box-sizing: border-box;
+    border-radius: 4px;
+    height: 151.5px;
+    position: absolute;
+    width: 1028px;
+    backdrop-filter: blur(2px);
+}
+
+
+img.ShippingConfirmation {
+    padding: 35px 0 9px;
+    width: 21px;
+}
+
+span.QuestionSent {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #707070;
+}
+
+a.Edit {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-decoration-line: underline;
+    color: #ED7839;
+    margin-top: 9px;
+}
+
+/*Comments*/
+
+.coment1 {
+    width: 1028px;
+    background: #FFFFFF;
+    border: 1px solid #E7E7E7;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    margin: 15px 15px 17px ;
+    padding: 17px 24px 0;
+    font-family: 'Quicksand';
+}
+
+span.Subject {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #ED7839;
+}
+
+span.People1 {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #5C5C5C;
+    margin-top: 4px;
+}
+
+span.ContentSubject {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #4D4D4D;
+    margin-top: 11px;
+}
+.options {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 11px 0 18px;
+}
+
+
+button.favorite1 {
+    border: none;
+    background: none;
+    height: 19px;
+    width: 27px;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.12), 0px 2px 2px rgba(0, 0, 0, 0.24);
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    margin: 0 15px 4px;
+    cursor: pointer;
+}
+
+.Like1 {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #757575;
+}
+
+.answer1 {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #757575;
+    margin: 0 15px;
+}
+ /*coment 2*/
+
+ .coment2 {
+
+width: 1028px;
+background: #FFFFFF;
+border: 1px solid #E7E7E7;
+box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.12);
+border-radius: 4px;
+display: flex;
+flex-direction: column;
+margin: 17px 15px 17px ;
+padding: 17px 24px 0;
+font-family: 'Quicksand';
+
+ }
+
+button#MoreInformation {
+    border: 0;
+    cursor: pointer;
+}
+
+#Like1 {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #757575;
+}
+
+#answer1 {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #757575;
+    margin: 0 15px;
+}
+ 
+ /* answer1 */
+
+ #answer {
+    border-top: 1px solid #E7E7E7;
+    margin: 0 0 18px -20px;
+    width: 1020px;
+    display: none;
+}
+
+.Reply{
+    padding: 18px 22px 0;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15px;
+    color: #5C5C5C;
+    display: flex;
+    flex-direction: column;
+    background: #F8F8F8;
+}
+
+.ContentIcon {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: #ED7839;
+    display: flex;
+    position: absolute;
+    right: 95px;
+    align-items: center;
+}
+
+span.Author{
+    margin-right: 33px;
+}
+
+.ContentReply1 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    margin: 10px 0px 24px ;
+    color: #4D4D4D;
+    word-spacing: -0.5px;
+}
+
+/* answer2 */
+
+.Reply2 {
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid #E7E7E7;
+    padding: 18px 30px 10px 22px;
+}
+
+span.NameAuthor2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15px;
+    color: #5C5C5C;
+    margin-bottom: 10px;
+}
+span.ContentReply2 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #4D4D4D;
+}
+
+/*answer 3*/
+
+.Reply3 {
+    padding: 18px 22px 0;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15px;
+    color: #5C5C5C;
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid #E7E7E7;
+    background: #F8F8F8;
+    
+}
+
+.ContentIcon3 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: #ED7839;
+    display: flex;
+    position: absolute;
+    right: 95px;
+    align-items: center;
+    
+}
+
+span.CoAuthor {
+    margin-right: 18px;
+}
+
+.ContentReply3 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #4D4D4D;
+    word-spacing: -0.5px;
+    margin: 10px 0 36px;
+}
+
+/* Answer 4 */
+
+.Reply4 {
+    padding: 18px 22px 0;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15px;
+    color: #5C5C5C;
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid #e7e7e7;
+}
+
+.ContentIcon4 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: #ED7839;
+    display: flex;
+    position: absolute;
+    right: 95px;
+    align-items: center;
+}
+
+span.CoAuthor2 {
+    margin-right: 18px;
+}
+
+.ContentReply4 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #4D4D4D;
+    word-spacing: -0.5px;
+    margin: 10px 0 35px;
+}
+
+/* footer*/
+
+footer { 
+margin: 50px 0 0 234px;
+}
+
